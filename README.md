@@ -3,7 +3,7 @@ My personal chunkwm, yabai and skhd configs
 
 Forked and lightly edited from Julian Heng.
 
-See Julian's [dotfiles](https://gitlab.com/julian-heng/dotfiles.git) repo for my other configs
+See Julian's [dotfiles](https://gitlab.com/julian-heng/dotfiles.git) repo for his other configs.
 
 NOTE: yabai requires System Integrity Protection to be disabled to work properly. See [here](https://github.com/koekeishiya/yabai/wiki/Disabling-System-Integrity-Protection) for more information.
 
