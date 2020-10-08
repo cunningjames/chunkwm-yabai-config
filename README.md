@@ -1,7 +1,9 @@
 # chunkwm, yabai and skhd configs
 My personal chunkwm, yabai and skhd configs
 
-See my [dotfiles](https://gitlab.com/julian-heng/dotfiles.git) repo for my other configs
+Forked and lightly edited from Julian Heng.
+
+See Julian's [dotfiles](https://gitlab.com/julian-heng/dotfiles.git) repo for my other configs
 
 NOTE: yabai requires System Integrity Protection to be disabled to work properly. See [here](https://github.com/koekeishiya/yabai/wiki/Disabling-System-Integrity-Protection) for more information.
 
@@ -11,7 +13,7 @@ NOTE: yabai requires System Integrity Protection to be disabled to work properly
 $ rm -f "${HOME}"/.{chunkwm,skhd}rc
 
 # Install configs
-$ git clone https://github.com/Julian-Heng/chunkwm-yabai-config.git "${HOME}"/.config/chunkwm
+$ git clone https://github.com/cunningjames/chunkwm-yabai-config.git "${HOME}"/.config/chunkwm
 $ ln -s "${HOME}/.config/chunkwm/chunkwm/chunkwmrc" "${HOME}/.chunkwmrc"
 $ ln -s "${HOME}/.config/chunkwm/chunkwm/skhdrc" "${HOME}/.skhdrc"
 ```
@@ -22,7 +24,7 @@ $ ln -s "${HOME}/.config/chunkwm/chunkwm/skhdrc" "${HOME}/.skhdrc"
 $ rm -f "${HOME}"/.{yabai,skhd}rc
 
 # Install configs
-$ git clone https://github.com/Julian-Heng/chunkwm-yabai-config.git "${HOME}"/.config/yabai
+$ git clone https://github.com/cunningjames/chunkwm-yabai-config.git "${HOME}"/.config/yabai
 $ ln -s "${HOME}/.config/yabai/yabai/yabairc" "${HOME}/.yabairc"
 $ ln -s "${HOME}/.config/yabai/yabai/skhdrc" "${HOME}/.skhdrc"
 ```

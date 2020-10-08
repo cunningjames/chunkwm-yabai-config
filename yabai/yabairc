@@ -2,11 +2,11 @@
 
 # ====== Variables =============================
 
-gaps_top="4"
-gaps_bottom="24"
-gaps_left="4"
-gaps_right="4"
-gaps_inner="4"
+gaps_top="15"
+gaps_bottom="15"
+gaps_left="15"
+gaps_right="15"
+gaps_inner="15"
 
 normal_border_color="010101"
 focused_border_color="808080"
@@ -60,3 +60,4 @@ yabai -m rule --add label="mpv" app="^mpv$" manage=off
 yabai -m rule --add label="The Unarchiver" app="^The Unarchiver$" manage=off
 yabai -m rule --add label="Transmission" app="^Transmission$" manage=off
 yabai -m rule --add label="VirtualBox" app="^VirtualBox$" manage=off
+yabai -m rule --add app=Emacs manage=on
